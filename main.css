@@ -1,0 +1,54 @@
+body {
+ background-color:white;
+ font-family:Georgia, "Times New Roman", serif;
+}
+
+#wrapper {
+ width:6000px;
+background-color:pink;
+margin-left:auto;
+margin-right:auto;
+margin-top:auto;
+margin-bottom:30px;
+padding:0 0px 20px;
+border-style:inset;
+border-width:10x;
+border-color:grey;
+
+}
+nav {
+
+font-size:35px;
+margin-right:50px;
+margin-left:300px;
+
+
+}
+
+
+h1 {
+color:grey;align-content:space-around
+margin-top:10px;
+margin-right:10px;
+margin-left:300px;
+font-size:45px;
+}
+h1:link{}
+h1:visited{}
+h1:hover{
+    color:#ffffff;
+}
+h1:active {
+    text-decoration:underline;
+}
+h1:focus {}
+    
+h2 {
+margin-left:0px;
+}
+
+footer {
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+        
+ 
