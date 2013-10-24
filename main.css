@@ -4,16 +4,14 @@ body {
 }
 
 #wrapper {
- width:6000px;
+ width:960px;
 background-color:pink;
 margin-left:auto;
 margin-right:auto;
-margin-top:auto;
+margin-top: 30px;
 margin-bottom:30px;
 padding:0 0px 20px;
-border-style:inset;
-border-width:10x;
-border-color:grey;
+border: 10px solid grey;
 
 }
 nav {
