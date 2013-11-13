@@ -49,22 +49,31 @@ footer {
     font-size: 30px;
     padding: 0 10px 0 10px;
         
-<<<<<<< HEAD
  @media screen and (max-width: 600px) {
    body {
-        padding: 5%;
+        padding: 3%;
+        }
+        h1, h2 {
+            text-align: center;
         }
         nav {
-           
+           border: 0;
            width:95%;
         }
+        nav ul {
+            list-style-type: none;
+            padding-left: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin-right: 10px;
      #content {
-            border: 5px solid blue;
             clear: left;
             margin-left: 0;
-            width: 95%;
+            width: 100%;
         
     }
-=======
+
  
->>>>>>> 3cc5cb35ef38958b86bd4dc2468d59f7d803fd91
+
