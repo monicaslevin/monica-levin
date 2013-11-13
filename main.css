@@ -51,4 +51,18 @@ footer {
     font-size: 30px;
     padding: 0 10px 0 10px;
         
- 
+ @media screen and (max-width: 600px) {
+   body {
+        padding: 5%;
+        }
+        nav {
+           
+           width:95%;
+        }
+     #content {
+            border: 5px solid blue;
+            clear: left;
+            margin-left: 0;
+            width: 95%;
+        
+    }
