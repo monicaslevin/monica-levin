@@ -3,6 +3,10 @@ body {
  font-family:Georgia, "Times New Roman", serif;
 }
 
+p {
+    font-size: 30px;
+}
+
 #wrapper {
  width:960px;
 background-color:pink;
@@ -18,14 +22,14 @@ nav {
 
 font-size:35px;
 margin-right:50px;
-margin-left:300px;
+margin-left:50px;
 
 
 }
 
 
 h1 {
-color:grey;align-content:space-around
+color:grey;
 margin-top:10px;
 margin-right:10px;
 margin-left:300px;
@@ -48,32 +52,35 @@ margin-left:0px;
 footer {
     font-size: 30px;
     padding: 0 10px 0 10px;
+}
         
- @media screen and (max-width: 600px) {
-   body {
+@media screen and (max-width: 600px) {
+    body {
         padding: 3%;
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        nav {
-           border: 0;
-           width:95%;
-        }
-        nav ul {
-            list-style-type: none;
-            padding-left: 0;
-            text-align: center;
-        }
-        nav li {
-            display: inline;
-            margin-right: 10px;
-     #content {
-            clear: left;
-            margin-left: 0;
-            width: 100%;
-        
     }
+    h1, h2 {
+        color: red;
+        text-align: center;
+    }
+    nav {
+       border: 0;
+       width: 95%;
+    }
+    nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    nav li {
+        display: inline;
+        margin-right: 10px;
+    }
+    #content {
+        clear: left;
+        margin-left: 0;
+        width: 100%;
+    }   
+}
 
  
 
