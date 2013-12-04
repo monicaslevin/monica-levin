@@ -5,6 +5,15 @@ body {
     line-height: 22px;
 }
 
+
+
+p
+{
+border:3px solid black;
+padding: 5px;
+}
+
+
 #wrapper {
     width:960px;
     background-color:pink;
