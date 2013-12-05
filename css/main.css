@@ -43,6 +43,15 @@ body {
     line-height: 22px;
 }
 
+
+
+p
+{
+border:3px solid black;
+padding: 5px;
+}
+
+
 #wrapper {
     width:960px;
     background-color:white;
@@ -65,7 +74,10 @@ h1 {
 
 h2 {
     font-size: 32px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> ffa73aa5582b8dcfe388aebe07a244af16bf71e1
 }
 <meta name="google-site-verification" content="fGDniSQI-s4pzbQF-1H9mla808roT_0llyxbW0ChVRk" /><body class="home blog custom-font-enabled">
         <nav id="site-navigation" class="main-navigation" role="navigation">
